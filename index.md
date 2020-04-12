@@ -1,37 +1,55 @@
-## Welcome to GitHub Pages
+# Welcome!
+This repo contains the Github Pages hosted help site
 
-You can use the [editor on GitHub](https://github.com/liviaw/liviaw.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Access here: [online2020.compclub.com.au](//online2020.compclub.com.au)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+^ will change later to compclub domain 
 
-### Markdown
+## Editing
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Edit the markdown files in the `/docs/` folder to change the site. The site is rebuilt on commit.
 
-```markdown
-Syntax highlighted code block
+If you want to add a new page (say for your day), just create the markdown file (eg day2.md) and link to it from the homepage.
 
-# Header 1
-## Header 2
-### Header 3
+If you want to write up content and then publish it later just leave it in the `/drafts/` folder and then move it on the day.
 
-- Bulleted
-- List
+Please feel free to make any and all changes you want :turtle:
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+## Template for each workshop page
 
-[Link](url) and ![Image](src)
+Here is a [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) to a markdown cheatsheet!
+
+Example of a page: (click edit to see the code for this template)
+
+----------------------------------
+## Introduction to Web Development
+
+Below you can find some helpful resources for the workshop!
+### Presentation
+Here is the [link to presentation](Insert link to slides here)!
+
+### Code Templates
+* [Templates for all the activites in the workshop](/day2_templates)` 
+
+### General Python help:
+* [Python Documentation](https://docs.python.org/3/index.html)
+* [Python TutorialPoint](https://www.tutorialspoint.com/python3/index.htm)
+* [Google's Python Class](https://developers.google.com/edu/python/)
+
+### Extension Activities:
+While you are waiting, try out some of these extension activities. If you need help, ask one of the mentors!
+
+#### Adding colour!
+You can make your website prettier by adding a background colour!
+<details><summary>CLICK ME</summary>
+<p>
+
+```css
+body{
+  background-color: red;
+}
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/liviaw/liviaw.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</p>
+</details>
