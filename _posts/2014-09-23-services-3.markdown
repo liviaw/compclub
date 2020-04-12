@@ -2,6 +2,7 @@
 layout: default
 img: 3.jpg
 category: Services
+logo: spy.png
 title: Summer School
 description: |
 ---
