@@ -1,27 +1,13 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <h1> this is H1 </h1>
-    <div id="innerdiv" class="row">
-      <div class="row">
-        <p> ednksnd </p>
-      </div>
-      <div class="row">
-        <h2> this is h2 </h2>
-        <p class="x"> test 2 <p>
-        </div
+<!-- same as default.html -->
+<html>
+	{% include head.html %}
 
-    </div>
+	<body>
+		{% include header.html %}
 
-    <div class="x">
-      jdnskjd
-      ejfns
-    </div>
-
-  </body>
+		{% include contact.html %}
+		{% include footer.html %}
+		{% include js.html %}
+	</body>
 </html>
