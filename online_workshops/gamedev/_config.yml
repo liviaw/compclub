@@ -1,0 +1,32 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: http://yoursite.com
+title: CSESoc CompClub
+email: compclub@csesoc.org.au
+author: CSESoc CompClub
+description: > # "Write an awesome description for your new site here. 
+  CompClub is a portfolio under the student run UNSW organisation CSESoc that promotes computing to high school students throughout the year. By running a variety of workshops throughout the year, we aim to create a fun, collaborative environment for students to develop their interests and hone their programming skills along like-minded students.
+copyright: 'Copyright &copy; 2019 CSESoc CompClub. All Rights Reserved.'
+credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+social:
+  - title: envelope
+    url: 'mailto: compclub@csesoc.org.au'
+  - title: facebook
+    url: https://www.facebook.com/csesoc
+  - title: linkedin
+    url: https://www.linkedin.com/company/csesoc
