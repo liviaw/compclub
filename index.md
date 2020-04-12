@@ -1,7 +1,7 @@
 # Welcome!
 This repo contains the Github Pages hosted help site
 
-Access here: [online2020.compclub.com.au](//online2020.compclub.com.au)
+Access here: [online2020.compclub.com.au](//https://liviaw.github.io/)
 
 ^ will change later to compclub domain 
 
