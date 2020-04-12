@@ -1,11 +1,10 @@
-<section id="online">
+<section id="services">
     <!-- Page Content -->
     <div class="content-section-a">
-        <h1 class="text-center" style="padding-bottom: 20px;">Check Out Our Winter Online Workshops!</h1>
-    <!-- {% for post in site.posts reversed %}
+        <h1 class="text-center" style="padding-bottom: 20px;">Our Pasts Workshops</h1>
+    {% for post in site.posts reversed %}
       {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        {% if thecycle == 'odd' %} -->
-        <!-- hard coding all the workshops we currently have-->
+        {% if thecycle == 'odd' %}
     
             <div class="container">
     
@@ -13,13 +12,11 @@
                     <div class="col-lg-5 col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">Introduction to Cyber Security</h2>
-                        <div class="lead">This workshop introduces students to a variety of different ciphers that are used in modern day programs to enhance security. </div>
-                        <button type="button"><a href="../online_workshops/security/index.html"> Click here to learn!</a></button>
+                        <h2 class="section-heading">{{ post.title }}</h2>
+                        <div class="lead">{{ post.content }}</div>
                     </div>
-                    
                     <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="../img/online/security.png" alt="">
+                        <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
                     </div>
                 </div>
     
@@ -27,71 +24,26 @@
             <!-- /.container -->
     
             <!-- /.content-section-a -->
-            <!-- {% else %} -->
+            {% else %}
             <div class="container">
                 
                 <div class="row">
                     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
-                        <h2 class="section-heading">Introduction to Game Development</h2>
-                        <!-- need to change game name! Don't get copy righted pleasee-->
-                        <div class="lead">This workshop allows students to unleash their full creative imaginations as we explore how to make our very own versions of games like "Snappy Bird" and “RecBot” </div>
-                        <button type="button"><a href="../online_workshops/gamedev/index.html"> Click here to learn!</a></button>
+                        <h2 class="section-heading">{{ post.title }}</h2>
+                        <div class="lead">{{ post.content }}</div>
                     </div>
                     <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class="img-responsive" src="../img/online/gamedev.png" alt="">
+                        <img class="img-responsive" src="img/services/{{ post.img }}" alt="">
                     </div>
                 </div>
                 
             </div>
             <!-- /.container -->
             
-            <!-- {% endif %}
-            {% endfor %} -->
-<!-- 
-            <div class="container">
-        
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">Introduction to Web Development</h2>
-                        <div class="lead">Students will uncover the true colours of a website behind its pages, pictures and links, as we guide you through all the nooks, crannies and secrets of web design. </div>
-                        <button type="button"><a href="online_workshops/webdev/index.html"> Click here to learn!</a></button>
-                    </div>
-                    
-                    <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                        <img class="img-responsive" src="img/online/webdev.png" alt="">
-                    </div>
-                </div>
-
-            </div> -->
-            <!-- /.container -->
-
-            <!-- /.content-section-a -->
-            <!-- {% else %} -->
-            <!-- <div class="container">
-                
-                <div class="row">
-                    <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                        <hr class="section-heading-spacer">
-                        <div class="clearfix"></div>
-                        <h2 class="section-heading">Introduction to the World of AI</h2>
-                        <div class="lead">This workshop allows students to --some good descriptive desciptions-- “RecBot” </div>
-                        <button type="button"><a href="online_workshops/ai/index.html"> Click here to learn!</a></button>
-                    </div>
-                    <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                        <img class="img-responsive" src="img/online/ai.png" alt="">
-                    </div>
-                </div>
-                
-            </div> -->
-            <!-- /.container -->
-            
-            <!-- {% endif %} -->
-            <!-- {% endfor %} -->
-    </div>
-
+            {% endif %}
+            {% endfor %}
+        </div>
     </section>
     
