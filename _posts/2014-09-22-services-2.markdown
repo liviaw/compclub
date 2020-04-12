@@ -1,6 +1,7 @@
 ---
 layout: default
 img: 2.jpg
+logo:orbit.png
 category: Services
 title: Winter School
 description: |
