@@ -1,0 +1,8 @@
+---
+layout: default
+img: 2.jpg
+category: Services
+title: Winter School
+description: |
+---
+  Every year, we host a Winter School that extends over several days right here at UNSW to teach students a range of computing skills and topics.

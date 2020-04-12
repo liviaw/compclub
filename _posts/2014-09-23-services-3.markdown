@@ -1,0 +1,8 @@
+---
+layout: default
+img: 3.jpg
+category: Services
+title: Summer School
+description: |
+---
+During the summer holidays, CompClub runs a free 5 day summer school with each day covering a different aspect of computing.
