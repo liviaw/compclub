@@ -3,12 +3,12 @@
 # ----------------------- #
 
 url: http://yoursite.com
-title: CSESoc CompClub
+title: CSESoc CompClub Game Dev
 email: compclub@csesoc.org.au
 author: CSESoc CompClub
 description: > # "Write an awesome description for your new site here. 
   CompClub is a portfolio under the student run UNSW organisation CSESoc that promotes computing to high school students throughout the year. By running a variety of workshops throughout the year, we aim to create a fun, collaborative environment for students to develop their interests and hone their programming skills along like-minded students.
-copyright: 'Copyright &copy; 2019 CSESoc CompClub. All Rights Reserved.'
+copyright: 'Copyright &copy; 2020 CSESoc CompClub. All Rights Reserved.'
 credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
 
 # ----------------------- #
